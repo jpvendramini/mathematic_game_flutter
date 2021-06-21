@@ -49,10 +49,13 @@ class _Game extends State<Game> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "It's math time!",
-          style: TextStyle(color: Colors.white),
+        title: Center(
+          child: Text(
+            "It's math time!",
+            style: TextStyle(color: Colors.white),
+          ),
         ),
+        elevation: 0,
       ),
       body: Center(
         child: Column(
